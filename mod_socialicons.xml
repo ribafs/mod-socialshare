@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.2" client="site" method="upgrade">
+	<name>mod_socialicons</name>
+	<author>Ribamar FS</author>
+	<creationDate>Junho de 2021</creationDate>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>riba@gmail.com</authorEmail>
+	<authorUrl>https://ribamar.net.br</authorUrl>
+	<version>1.0</version>
+	<description>Este módulo exibe ícones sociais</description>
+	<files>
+		<filename module="mod_socialicons">mod_socialicons.php</filename>
+	</files>
+</extension>
