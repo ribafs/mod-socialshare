@@ -11,4 +11,17 @@
 	<files>
 		<filename module="mod_socialicons">mod_socialicons.php</filename>
 	</files>
+    <config>
+     <fields name="params">
+      <fieldset name="basic">
+       <field
+         name="domain"
+         type="text"
+         published=""
+         label="Domain"
+         default="ribamar.net.br"
+         description="Entre acima com o domínio"/>
+       </fieldset>
+      </fields>
+    </config>
 </extension>
