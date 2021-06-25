@@ -2,26 +2,14 @@
 <extension type="module" version="3.2" client="site" method="upgrade">
 	<name>mod_socialshare</name>
 	<author>Ribamar FS</author>
-	<creationDate>Junho de 2021</creationDate>
+	<creationDate>Abril de 2021</creationDate>
 	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
-	<authorEmail>riba@gmail.com</authorEmail>
-	<authorUrl>https://ribamar.net.br</authorUrl>
+	<authorEmail>ribamar@tutamail.com</authorEmail>
+	<authorUrl>https://ribafs.me</authorUrl>
 	<version>1.0</version>
-	<description>Este módulo exibe ícones para compartilhamento em redes sociais</description>
+	<description>Este módulo exibe uma frase aleatória de um arquivo sobre programação ou motivacional</description>
 	<files>
 		<filename module="mod_socialshare">mod_socialshare.php</filename>
+		<filename>style.css</filename>
 	</files>
-    <config>
-     <fields name="params">
-      <fieldset name="basic">
-       <field
-         name="domain"
-         type="text"
-         published=""
-         label="Domain"
-         default="ribamar.net.br"
-         description="Entre acima com o domínio"/>
-       </fieldset>
-      </fields>
-    </config>
 </extension>
